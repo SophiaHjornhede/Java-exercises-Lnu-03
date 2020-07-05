@@ -22,7 +22,6 @@ public class Dices {
         int dieA;
         int dieB;
 
-
         for (int i = 0; i < rolls; i++) {
             dieA = (int) (Math.random() * 6 + 1);
             dieB = (int) (Math.random() * 6 + 1);
@@ -35,15 +34,12 @@ public class Dices {
                 int tmp= whatsTheFrequency.get(dieA+dieB);
                 whatsTheFrequency.put(dieA+dieB, tmp=tmp+1);
             }
-
         }
         String format = "%-7s %5d\n";
         System.out.println("Frequency table (sum, count) for rolling two dices "+ rolls+ " times is:");
         whatsTheFrequency.entrySet().forEach(entry->{
             System.out.format(format, entry.getKey() , entry.getValue());
         });
-
-
     }
 
 
