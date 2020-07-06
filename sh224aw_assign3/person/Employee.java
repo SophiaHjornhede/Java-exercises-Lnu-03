@@ -4,7 +4,7 @@ package sh224aw_assign3.person;
  * Assignment-3, exercise-2
  *
  * @author Sophia Hjörnhede
- * @version 1.10 30 June 2020
+ * @version 1.10 06 July 2020
  */
 
 public class Employee extends Person {
@@ -15,10 +15,6 @@ public class Employee extends Person {
         this.salary = salary;
         this.dateHired = dateHired;
     }
-
-//  public Employee(String name, String address, String phonenumber, String email) {
-    //     super(name, address, phonenumber, email);
-    //  }
 
     public double getSalary() {
         return salary;

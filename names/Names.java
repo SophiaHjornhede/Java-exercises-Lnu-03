@@ -4,7 +4,7 @@ package names;
  * Assignment-3, exercise-5
  *
  * @author Sophia Hjörnhede
- * @version 1.10 30 June 2020
+ * @version 1.10 06 July 2020
  */
 
 import java.io.*;
@@ -46,7 +46,6 @@ public class Names {
         }
         return array;
     }
-
 
     private static String readInputFromUser() throws IOException {
         System.out.print("Enter name to search: ");

@@ -4,15 +4,11 @@ package sh224aw_assign3.person;
  * Assignment-3, exercise-2
  *
  * @author Sophia Hjörnhede
- * @version 1.10 30 June 2020
+ * @version 1.10 06 July 2020
  */
 
 public class Staff extends Employee {
     String title;
-
-
-
-
 
     public Staff(String name, String address, String phonenumber, String email, double salary, String dateHired, String title) {
         super(name, address, phonenumber, email, salary, dateHired);

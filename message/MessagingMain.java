@@ -4,11 +4,10 @@ package message;
  * Assignment-3, exercise-3, main class
  *
  * @author Sophia Hjörnhede
- * @version 1.10 30 June 2020
+ * @version 1.10 06 July 2020
  */
 
 public class MessagingMain {
-
 
     public static void main(String[] args) {
         char a = 'a';     // Delete
@@ -36,6 +35,4 @@ public class MessagingMain {
         // Encoded
         System.out.println(sms1.encode2());
     }
-
-
 }

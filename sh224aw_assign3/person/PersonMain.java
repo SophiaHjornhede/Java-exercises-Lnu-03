@@ -4,7 +4,7 @@ package sh224aw_assign3.person;
  * Assignment-3, exercise-2, main class
  *
  * @author Sophia Hjörnhede
- * @version 1.10 30 June 2020
+ * @version 1.10 06 July 2020
  */
 
 public class PersonMain {
@@ -22,6 +22,4 @@ public class PersonMain {
         Staff staff1 = new Staff("James Bond","London","+23 23 54 222","ShakenNotSirred@gmail.com",70000,"1951-01-01","Agent");
         System.out.println(staff1.toString());
     }
-
-
 }

@@ -4,19 +4,12 @@ package sh224aw_assign3.person;
  * Assignment-3, exercise-2
  *
  * @author Sophia Hjörnhede
- * @version 1.10 30 June 2020
+ * @version 1.10 06 July 2020
  */
 
 public class Faculty extends Employee{
     String officeHours;
     String rank;
-
-    // public Faculty(String name, String address, String phonenumber, String email, double salary, String dateHired) {
-    //    super(name, address, phonenumber, email, salary, dateHired);
-
-    //}
-
-
 
     public Faculty(String name, String address, String phonenumber, String email, double salary, String dateHired, String officeHours, String rank) {
         super(name, address, phonenumber, email, salary, dateHired);

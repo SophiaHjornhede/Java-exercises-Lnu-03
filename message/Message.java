@@ -4,14 +4,13 @@ package message;
  * Assignment-3, exercise-3
  *
  * @author Sophia Hjörnhede
- * @version 1.10 30 June 2020
+ * @version 1.10 06 July 2020
  */
 
 public class Message {
     String text;
 
     public Message() {
-
     }
 
     public Message(String text) {       //  this method is not in instructions
@@ -26,7 +25,6 @@ public class Message {
     public String toString() {
         return text;
     }
-
 
     public String encode2() {
         String encodedMessage = "";

@@ -4,7 +4,7 @@ package dices;
  * Assignment-3, exercise-1
  *
  * @author Sophia Hjörnhede
- * @version 1.10 30 June 2020
+ * @version 1.10 06 July 2020
  */
 
 import java.util.HashMap;
@@ -25,8 +25,7 @@ public class Dices {
         for (int i = 0; i < rolls; i++) {
             dieA = (int) (Math.random() * 6 + 1);
             dieB = (int) (Math.random() * 6 + 1);
-            //  System.out.println("Nr."+ i);
-            //  System.out.println(whatsTheFrequency.get(dieA+dieB));
+
             if(whatsTheFrequency.get(dieA + dieB) == null)
                 whatsTheFrequency.put(dieA+dieB,1);
             else
@@ -41,9 +40,4 @@ public class Dices {
             System.out.format(format, entry.getKey() , entry.getValue());
         });
     }
-
-
-
-
-
 }

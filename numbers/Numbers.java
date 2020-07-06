@@ -4,7 +4,7 @@ package numbers;
  * Assignment-3, exercise-4
  *
  * @author Sophia Hjörnhede
- * @version 1.10 30 June 2020
+ * @version 1.10 06 July 2020
  */
 
 import java.io.File;
@@ -20,8 +20,7 @@ public class Numbers {
         // Array to store data from file
         int[] testArray = readData("numbers.txt");
         System.out.println("Average: " +  twoDec.format(average(testArray)));
-        standardDeviation(testArray);
-    }
+        standardDeviation(testArray);    }
 
     // Method to read data from file into an array of integers
     public static int[] readData(String file) throws FileNotFoundException {
@@ -69,7 +68,6 @@ public class Numbers {
         for (int i = 0; i < diffrences.length; i++) {
             diffrences[i] = diffrences[i] * diffrences[i];
         }
-
 
         // sum of sqr elements
         double sumOfElements = 0;

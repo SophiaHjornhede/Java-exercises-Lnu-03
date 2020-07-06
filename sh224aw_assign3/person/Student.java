@@ -4,7 +4,7 @@ package sh224aw_assign3.person;
  * Assignment-3, exercise-2
  *
  * @author Sophia Hjörnhede
- * @version 1.10 30 June 2020
+ * @version 1.10 06 July 2020
  */
 
 public class Student extends Person{
