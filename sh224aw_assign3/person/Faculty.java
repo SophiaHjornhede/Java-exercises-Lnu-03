@@ -11,6 +11,7 @@ public class Faculty extends Employee{
     String officeHours;
     String rank;
 
+    // Constructor
     public Faculty(String name, String address, String phonenumber, String email, double salary, String dateHired, String officeHours, String rank) {
         super(name, address, phonenumber, email, salary, dateHired);
         this.officeHours = officeHours;

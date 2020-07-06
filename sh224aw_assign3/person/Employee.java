@@ -11,6 +11,7 @@ public class Employee extends Person {
     double salary;
     String dateHired;
 
+    // Constructors
     public Employee(double salary, String dateHired) {
         this.salary = salary;
         this.dateHired = dateHired;

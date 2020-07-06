@@ -13,6 +13,7 @@ public class Person {
     String phonenumber;
     String email;
 
+    // Constructor
     public Person() {
     }
 

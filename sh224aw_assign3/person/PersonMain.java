@@ -10,7 +10,7 @@ package sh224aw_assign3.person;
 public class PersonMain {
 
     public static void main(String[] args) {
-
+        // Building class objects
         Person person1 = new Person("Olle1 Olleson", "Göteborg", "123-234-12", "Olle@gmail.com");
         System.out.println(person1.toString());
         Student student1 = new Student("Olle2 Olleson", "Göteborg", "123-234-12", "Olle@gmail.com", "junior");

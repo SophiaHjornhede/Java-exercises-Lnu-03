@@ -10,11 +10,13 @@ package sh224aw_assign3.person;
 public class Student extends Person{
     String classStatus;
 
+    // Constructor
     public Student(String name, String address, String phonenumber, String email, String classStatus) {
         super(name, address, phonenumber, email);
         this.classStatus = classStatus;
     }
 
+    // Getter and setter
     public String getClassStatus() {
         return classStatus;
     }

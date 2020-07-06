@@ -10,6 +10,7 @@ package sh224aw_assign3.person;
 public class Staff extends Employee {
     String title;
 
+    // Building class objects
     public Staff(String name, String address, String phonenumber, String email, double salary, String dateHired, String title) {
         super(name, address, phonenumber, email, salary, dateHired);
         this.title = title;
